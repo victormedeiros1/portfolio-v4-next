@@ -1,17 +1,14 @@
 import { createStitches, globalCss } from '@stitches/react';
 
 const globalStyles = globalCss({
+  '@import': ["url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap')"],
   '*': {
     boxSizing: 'border-box',
     padding: 0,
     margin: 0,
-    fontFamily: 'Concert One, sans-serif',
   },
 
   html: {
-    '@import': [
-      "url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap')",
-    ],
     fontFamily:
       '-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif',
   },
@@ -23,23 +20,13 @@ const globalStyles = globalCss({
     backgroundAttachment: 'fixed',
   },
 
+  'header, section, footer': {
+    display: 'flex',
+    alignItems: 'center',
+  },
+
   'h1, h2, h3, h4, h5, h6': {
     fontFamily: 'Concert One, sans-serif',
-  },
-
-  h1: {
-    fontSize: '6.25rem',
-    lineHeight: '6.25rem',
-  },
-
-  h3: {
-    fontSize: '5rem',
-    lineHeight: '3.875rem',
-  },
-
-  h4: {
-    fontSize: '1.5rem',
-    lineHeight: '2.25rem',
   },
 
   a: {
@@ -85,10 +72,12 @@ export const { theme } = createStitches({
       20: '1.25rem',
       24: '1.5rem',
       32: '2rem',
+      36: '2.25rem',
       40: '2.5rem',
       48: '3rem',
       56: '3.5rem',
-      60: '3.75rem',
+      80: '5rem',
+      100: '6.25rem',
     },
     lineHeights: {
       12: '.75rem',
@@ -98,10 +87,12 @@ export const { theme } = createStitches({
       20: '1.25rem',
       24: '1.5rem',
       32: '2rem',
+      36: '2.25rem',
       40: '2.5rem',
       48: '3rem',
       56: '3.5rem',
-      60: '3.75rem',
+      80: '5rem',
+      100: '6.25rem',
     },
     zIndices: {
       0: 0,
@@ -113,6 +104,17 @@ export const { theme } = createStitches({
     colors: {
       dark: '#2F2F2F',
       light: '#EEECE9',
+      green: '#27CA54',
+      gray50: '#f9f9f9',
+      gray100: '#ededed',
+      gray200: '#e1e1e1',
+      gray300: '#d3d3d3',
+      gray400: '#c4c4c4',
+      gray500: '#b3b3b3',
+      gray600: '#a0a0a0',
+      gray700: '#898989',
+      gray800: '#6c6c6c',
+      gray900: '#3f3f3f',
     },
   },
   media: {

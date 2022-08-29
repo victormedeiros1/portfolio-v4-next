@@ -1,9 +1,14 @@
 import { styled } from '@stitches/react';
 
 export const ContainerStyles = styled('div', {
-  width: '100%',
-  minHeight: '100vh',
+  display: 'flex',
+  justifyContent: 'center',
+  flexDirection: 'row',
 
-  border: '1px solid red',
+  width: '100%',
+  maxWidth: '1200px',
+  minHeight: '100vh',
+  margin: '0 auto',
+
   padding: '$64',
 });
