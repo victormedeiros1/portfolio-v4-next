@@ -24,7 +24,7 @@ const globalStyles = globalCss({
     backgroundAttachment: 'fixed',
   },
 
-  'header, section, footer': {
+  'header, main, section, footer': {
     display: 'flex',
     alignItems: 'center',
   },
@@ -80,6 +80,7 @@ export const { theme } = createStitches({
       40: '2.5rem',
       48: '3rem',
       56: '3.5rem',
+      64: '4rem',
       80: '5rem',
       100: '6.25rem',
     },
@@ -95,6 +96,7 @@ export const { theme } = createStitches({
       40: '2.5rem',
       48: '3rem',
       56: '3.5rem',
+      64: '4rem',
       80: '5rem',
       100: '6.25rem',
     },
