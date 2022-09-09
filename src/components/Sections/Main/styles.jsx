@@ -2,6 +2,7 @@ import { styled } from '@stitches/react';
 
 export const H1 = styled('h1', {
   maxWidth: 400,
+  color: '$dark',
   fontSize: '$100',
   lineHeight: '$100',
   marginBottom: '$20',
@@ -10,6 +11,7 @@ export const H1 = styled('h1', {
 export const H2 = styled('h2', {
   fontSize: '$32',
   color: '$green',
+  marginBottom: '$48',
 });
 
 export const Left = styled('div', {
