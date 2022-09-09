@@ -1,8 +1,12 @@
 import { createStitches, globalCss } from '@stitches/react';
 
 const globalStyles = globalCss({
-  '@import': ["url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap')"],
+  '@import': [
+    "url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap')",
+    "url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap')",
+  ],
   '*': {
+    fontFamily: 'Poppins, sans-serif',
     boxSizing: 'border-box',
     padding: 0,
     margin: 0,
