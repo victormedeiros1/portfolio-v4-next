@@ -7,7 +7,7 @@ import { H1, H2, Left, Right } from './styles';
 const Main = () => {
   return (
     <Container>
-      <header>
+      <main>
         <Left>
           <H1>JOSÉ VICTOR</H1>
           <H2>FRONT-END DEVELOPER</H2>
@@ -16,7 +16,7 @@ const Main = () => {
         <Right>
           <Logo />
         </Right>
-      </header>
+      </main>
     </Container>
   );
 };
