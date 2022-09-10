@@ -4,6 +4,7 @@ export const Box = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   gap: '10px',
+  marginBottom: '$48',
 });
 
 export const TitleStyles = styled('h2', {
