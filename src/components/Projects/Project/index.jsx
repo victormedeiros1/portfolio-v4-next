@@ -1,9 +1,9 @@
 import { ProjectStyles, Banner } from './styles';
 
-const Project = ({ banner, alt }) => {
+const Project = ({ onClick, banner, alt, dataTarget }) => {
   return (
-    <ProjectStyles>
-      <Banner src={`images/banners/${banner}`} alt={alt} />
+    <ProjectStyles onClick={onClick}>
+      <Banner data-target={dataTarget} src={banner} alt={alt} />
     </ProjectStyles>
   );
 };
