@@ -2,6 +2,7 @@ import { theme } from 'stitches.config';
 import Head from 'next/head';
 import Main from 'src/components/Sections/Main';
 import About from 'src/components/Sections/About';
+import Works from 'src/components/Sections/Works';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <Main />
       <About />
+      <Works />
     </div>
   );
 }
