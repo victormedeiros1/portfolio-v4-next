@@ -1,6 +1,6 @@
 import { styled } from '@stitches/react';
 
-export const ButtonStyles = styled('button', {
+export const ButtonStyles = styled('a', {
   color: '$dark',
   fontSize: '$20',
   lineHeight: '$14',
