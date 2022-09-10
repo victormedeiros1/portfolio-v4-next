@@ -1,6 +1,7 @@
 import { theme } from 'stitches.config';
 import Head from 'next/head';
 import Main from 'src/components/Sections/Main';
+import About from 'src/components/Sections/About';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <link rel="shortcut icon" href="/images/favicon.ico" />
       </Head>
       <Main />
+      <About />
     </div>
   );
 }
