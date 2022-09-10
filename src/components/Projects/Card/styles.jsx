@@ -38,6 +38,7 @@ export const CardTitle = styled('h3', {
   fontSize: '$36',
   lineHeight: '$56',
   fontWeight: 900,
+  marginBottom: '$16',
 });
 
 export const CardFooter = styled('div', {
