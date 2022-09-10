@@ -47,7 +47,7 @@ export const CardFooter = styled('div', {
   alignItems: 'center',
   marginTop: '$48',
 });
-export const WorkTime = styled('span', {
+export const Company = styled('span', {
   color: '$dark',
   fontSize: '$14',
   lineHeight: '$18',
