@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import Container from 'src/components/Container';
 import Card from 'src/components/Projects/Card';
-import Project from 'src/components/Projects/Project';
+import Banner from 'src/components/Projects/Banner';
 import Title from 'src/components/Title';
-import { Projects, ProjectsList, Cards } from './styles';
+import { Projects, Banners, Cards } from './styles';
 
 const Works = () => {
   const [currentCard, setCurrentCard] = useState(0);
@@ -111,9 +111,9 @@ const Works = () => {
         <Title>WORKS</Title>
 
         <Projects>
-          <ProjectsList>
+          <Banners>
             {projects.map(({ id, banner, alt }) => (
-              <Project
+              <Banner
                 onClick={(e) => setCurrentCard(e.target.getAttribute('data-target'))}
                 key={id}
                 dataTarget={id}
@@ -121,7 +121,7 @@ const Works = () => {
                 alt={alt}
               />
             ))}
-          </ProjectsList>
+          </Banners>
 
           <Cards>
             <Card
