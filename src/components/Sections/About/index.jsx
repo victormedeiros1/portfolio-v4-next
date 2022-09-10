@@ -32,7 +32,7 @@ const About = () => {
         <Right>
           <img
             src="/images/profile-picture.png"
-            alt="profile picture
+            alt="Profile picture
           "
           />
         </Right>
