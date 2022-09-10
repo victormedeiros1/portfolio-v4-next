@@ -6,6 +6,7 @@ export const CardBorderTop = styled('div', {
   border: '1px solid $dark',
   borderRight: 'transparent',
   borderBottom: 'transparent',
+  zIndex: '$-1',
 
   position: 'absolute',
   top: 0,
@@ -18,6 +19,7 @@ export const CardBorderBottom = styled('div', {
   border: '1px solid $dark',
   borderRight: 'transparent',
   borderBottom: 'transparent',
+  zIndex: '$-1',
 
   position: 'absolute',
   bottom: 0,
