@@ -67,6 +67,7 @@ export const { theme } = createStitches({
       32: '2rem',
       48: '3rem',
       64: '4rem',
+      80: '5rem',
       100: '6.25rem',
     },
     fontSizes: {
