@@ -29,7 +29,7 @@ const globalStyles = globalCss({
     alignItems: 'center',
   },
 
-  h1: {
+  'h1, h2': {
     fontFamily: 'Concert One, sans-serif',
   },
 
