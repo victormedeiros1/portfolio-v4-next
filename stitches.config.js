@@ -29,7 +29,7 @@ const globalStyles = globalCss({
     alignItems: 'center',
   },
 
-  'h1, h2, h3, h4, h5, h6': {
+  h1: {
     fontFamily: 'Concert One, sans-serif',
   },
 
@@ -67,6 +67,7 @@ export const { theme } = createStitches({
       32: '2rem',
       48: '3rem',
       64: '4rem',
+      100: '6.25rem',
     },
     fontSizes: {
       12: '.75rem',
