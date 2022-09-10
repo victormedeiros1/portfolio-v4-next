@@ -10,5 +10,5 @@ export const ContainerStyles = styled('div', {
   minHeight: '100vh',
   margin: '0 auto',
 
-  padding: '$64',
+  padding: '$64 $20',
 });
