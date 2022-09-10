@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Main from 'src/components/Sections/Main';
 import About from 'src/components/Sections/About';
 import Works from 'src/components/Sections/Works';
+import Skills from 'src/components/Sections/Skills';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Main />
       <About />
       <Works />
+      <Skills />
     </div>
   );
 }
