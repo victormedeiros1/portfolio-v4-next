@@ -1,6 +1,6 @@
 import { styled } from '@stitches/react';
 
-export const SubtitleStyles = styled('h2', {
+export const SubtitleStyles = styled('h3', {
   fontfamily: 'Poppins',
   color: '$dark',
   fontSize: '$24',
