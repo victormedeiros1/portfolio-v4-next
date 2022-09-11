@@ -1,10 +1,8 @@
 import React from 'react';
-import Button from 'src/components/Button';
 import Container from 'src/components/Container';
 import H2 from 'src/components/Headings/H2';
-import H3 from 'src/components/Headings/H3';
 import SocialMedias from './components/SocialMedias';
-import { Form, Input, Left, Right } from './styles';
+import { ContactLink, Left, Right } from './styles';
 
 const Contact = () => {
   return (
@@ -12,12 +10,12 @@ const Contact = () => {
       <footer>
         <Left>
           <H2>CONTACT</H2>
-          <H3>TALK TO ME!</H3>
-
-          <Form>
-            <Input type="text" />
-            <Button>SUBMIT</Button>
-          </Form>
+          <ContactLink>
+            <span>LET'S</span>
+            <span>BUILD</span>
+            <span>SOMETHING</span>
+            <span>TOGETHER?</span>
+          </ContactLink>
         </Left>
         <Right>
           <SocialMedias />
