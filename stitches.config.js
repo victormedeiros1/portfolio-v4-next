@@ -33,6 +33,10 @@ const globalStyles = globalCss({
     fontFamily: 'Concert One, sans-serif',
   },
 
+  '.social-media-colors': {
+    fill: '$dark',
+  },
+
   a: {
     color: 'inherit',
     textDecoration: 'none',
