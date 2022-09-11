@@ -12,10 +12,12 @@ export const Right = styled('div', {
 
 export const Form = styled('form', {});
 
-export const Input = styled('input', {
+export const Input = styled('textarea', {
   width: '100%',
   maxWidth: '365px',
   height: '150px',
+  resize: 'none',
+  padding: '$16',
 
   backgroundColor: 'transparent',
 
