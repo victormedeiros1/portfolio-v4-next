@@ -7,7 +7,7 @@ export const Box = styled('div', {
   marginBottom: '$48',
 });
 
-export const TitleStyles = styled('h2', {
+export const H2Styles = styled('h2', {
   color: '$green',
   fontSize: '$80',
   lineHeight: '$64',

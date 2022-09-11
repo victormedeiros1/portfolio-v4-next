@@ -1,8 +1,8 @@
 import React from 'react';
 import Container from 'src/components/Container';
 import Paragraph from 'src/components/Parapgraph';
-import Subtitle from 'src/components/Subtitle';
-import Title from 'src/components/Title';
+import H2 from 'src/components/Headings/H2';
+import H3 from 'src/components/Headings/H3';
 import { Left, Right } from './styles';
 
 const About = () => {
@@ -10,8 +10,8 @@ const About = () => {
     <Container>
       <section>
         <Left>
-          <Title>ABOUT ME</Title>
-          <Subtitle>Nice to meet you!</Subtitle>
+          <H2>ABOUT ME</H2>
+          <H3 size="small">NICE TO MEET YOU!</H3>
           <Paragraph>
             I started programming in 2017 and graduated as a Computer Technician at the
             IFRN. I liked to program, it was an interesting challenge, but I took a real

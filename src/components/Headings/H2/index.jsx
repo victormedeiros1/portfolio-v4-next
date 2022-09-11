@@ -1,12 +1,12 @@
-import { Box, TitleStyles, LargeBar, MediumBar, SmallBar } from './styles';
+import { Box, H2Styles, LargeBar, MediumBar, SmallBar } from './styles';
 
-const Title = ({ children }) => {
+const H2 = ({ children }) => {
   return (
     <Box>
       <SmallBar></SmallBar>
       <MediumBar></MediumBar>
       <LargeBar></LargeBar>
-      <TitleStyles>{children}</TitleStyles>
+      <H2Styles>{children}</H2Styles>
       <LargeBar></LargeBar>
       <MediumBar></MediumBar>
       <SmallBar></SmallBar>
@@ -14,4 +14,4 @@ const Title = ({ children }) => {
   );
 };
 
-export default Title;
+export default H2;

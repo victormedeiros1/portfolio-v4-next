@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Container from 'src/components/Container';
 import Card from 'src/components/Projects/Card';
 import Banner from 'src/components/Projects/Banner';
-import Title from 'src/components/Title';
+import Title from 'src/components/Headings/H2';
 import { Projects, Banners, Cards } from './styles';
 
 const Works = () => {

@@ -1,4 +1,5 @@
 import Button from 'src/components/Button';
+import H3 from 'src/components/Headings/H3';
 import Paragraph from 'src/components/Parapgraph';
 import {
   CardStyles,
@@ -13,7 +14,7 @@ const Card = ({ title, paragraphs, company, link }) => {
   return (
     <CardStyles>
       <CardBorderTop />
-      <CardTitle>{title}</CardTitle>
+      <H3>{title}</H3>
       {paragraphs.map(({ id, paragraph }) => (
         <Paragraph key={id}>{paragraph}</Paragraph>
       ))}
