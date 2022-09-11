@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Container from 'src/components/Container';
 import Card from 'src/components/Projects/Card';
 import Banner from 'src/components/Projects/Banner';
-import Title from 'src/components/Headings/H2';
+import H2 from 'src/components/Headings/H2';
 import { Projects, Banners, Cards } from './styles';
 
 const Works = () => {
@@ -108,7 +108,7 @@ const Works = () => {
   return (
     <Container>
       <section style={{ flexDirection: 'column', alignItems: 'start' }}>
-        <Title>WORKS</Title>
+        <H2>WORKS</H2>
 
         <Projects>
           <Banners>

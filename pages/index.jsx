@@ -4,6 +4,7 @@ import Main from 'src/components/Sections/Main';
 import About from 'src/components/Sections/About';
 import Works from 'src/components/Sections/Works';
 import Skills from 'src/components/Sections/Skills';
+import Contact from 'src/components/Sections/Contact';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <About />
       <Works />
       <Skills />
+      <Contact />
     </div>
   );
 }
