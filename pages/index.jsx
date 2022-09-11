@@ -6,7 +6,7 @@ import Works from 'src/components/Sections/Works';
 import Skills from 'src/components/Sections/Skills';
 import Contact from 'src/components/Sections/Contact';
 
-export default function Home() {
+export const Home = () => {
   return (
     <div>
       <Head>
@@ -21,4 +21,4 @@ export default function Home() {
       <Contact />
     </div>
   );
-}
+};
