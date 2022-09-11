@@ -10,8 +10,13 @@ export const ButtonStyles = styled('a', {
 
   border: '2px solid $dark',
   borderBottomLeftRadius: '90px',
-  padding: '18px 40px 18px 57px',
+  padding: '16px 40px 16px 57px',
 
+  '@media (max-width: 992px)': {
+    fontSize: '$16',
+    lineHeight: '$10',
+    padding: '10px 32px 10px 42px',
+  },
   '&:hover': {
     color: '$light',
     backgroundColor: '$dark',

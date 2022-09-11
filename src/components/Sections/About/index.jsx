@@ -3,7 +3,7 @@ import Container from 'src/components/Container';
 import Paragraph from 'src/components/Parapgraph';
 import H2 from 'src/components/Headings/H2';
 import H3 from 'src/components/Headings/H3';
-import { Left, Right } from './styles';
+import { Left, Right, ProfilePicture } from './styles';
 
 const About = () => {
   return (
@@ -30,7 +30,7 @@ const About = () => {
           </Paragraph>
         </Left>
         <Right>
-          <img
+          <ProfilePicture
             src="/images/profile-picture.png"
             alt="Profile picture
           "

@@ -6,4 +6,14 @@ export const ParagraphStyles = styled('p', {
   fontSize: '$14',
   lineHeight: '$18',
   marginBottom: '$16',
+
+  '@media (max-width: 992px)': {
+    fontSize: '$12',
+    lineHeight: '$16',
+  },
+
+  '@media (max-width: 992px)': {
+    fontSize: '$10',
+    lineHeight: '$14',
+  },
 });

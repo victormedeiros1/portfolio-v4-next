@@ -12,6 +12,11 @@ export const H2Styles = styled('h2', {
   fontSize: '$80',
   lineHeight: '$64',
   marginBottom: '10px',
+
+  '@media (max-width: 992px)': {
+    fontSize: '$48',
+    lineHeight: '$36',
+  },
 });
 
 export const LargeBar = styled('div', {

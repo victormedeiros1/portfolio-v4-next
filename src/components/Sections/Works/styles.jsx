@@ -5,13 +5,28 @@ export const Projects = styled('div', {
 });
 
 export const Banners = styled('div', {
+  width: '30%',
   maxWidth: '500px',
   overflow: 'hidden',
   marginRight: '$48',
-  padding: '$100 0',
+  padding: '10% 0',
+
+  '@media (max-width: 992px)': {
+    width: '40%',
+    marginRight: '$24',
+    padding: '10% 0',
+  },
+
+  '@media (max-width: 576px)': {
+    marginRight: '$8',
+  },
 });
 
 export const Cards = styled('div', {
+  width: '70%',
   overflow: 'hidden',
-  padding: '$100 0',
+
+  '@media (max-width: 992px)': {
+    width: '60%',
+  },
 });

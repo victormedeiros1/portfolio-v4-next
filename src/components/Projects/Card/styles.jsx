@@ -32,7 +32,12 @@ export const CardStyles = styled('div', {
   maxWidth: '652px',
   position: 'relative',
   padding: '$32',
-  marginTop: '$80',
+  marginTop: '22%',
+
+  '@media (max-width: 992px)': {
+    padding: '$12',
+    marginTop: '27.5%',
+  },
 });
 
 export const CardFooter = styled('div', {
@@ -40,6 +45,13 @@ export const CardFooter = styled('div', {
   justifyContent: 'space-between',
   alignItems: 'center',
   marginTop: '$48',
+
+  '@media (max-width: 576px)': {
+    flexDirection: 'column-reverse',
+    alignItems: 'end',
+    gap: '$8',
+    marginTop: '$24',
+  },
 });
 export const Company = styled('span', {
   color: '$dark',

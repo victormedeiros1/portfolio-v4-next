@@ -27,6 +27,10 @@ const globalStyles = globalCss({
   'header, main, section, footer': {
     display: 'flex',
     alignItems: 'center',
+
+    '@media (max-width: 992px)': {
+      flexDirection: 'column-reverse',
+    },
   },
 
   'h1, h2': {
@@ -73,8 +77,10 @@ export const { theme } = createStitches({
       64: '4rem',
       80: '5rem',
       100: '6.25rem',
+      128: '8rem',
     },
     fontSizes: {
+      10: '.625rem',
       12: '.75rem',
       14: '.875rem',
       16: '1rem',
@@ -130,13 +136,12 @@ export const { theme } = createStitches({
       gray900: '#3f3f3f',
     },
   },
-  media: {
-    xs: '(max-width: 576px)',
-    sm: '(min-width: 576px)',
-    md: '(min-width: 992px)',
-    lg: '(min-width: 1200px)',
-    xl: '(min-width: 1440px)',
-  },
+  // DON'T WORKING
+  // media: {
+  //   xs: '(max-width: 576px)',
+  //   sm: '(max-width: 768px)',
+  //   md: '(max-width: 992px)',
+  // },
   utils: {
     m: (value) => ({
       margin: value,
