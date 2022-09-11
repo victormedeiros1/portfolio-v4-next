@@ -6,7 +6,9 @@ const Skills = () => {
   return (
     <Container>
       <section>
-        <H2>SKILLS</H2>
+        <H2 style={{ position: 'absolute', visibility: 'hidden', zIndex: '$-1' }}>
+          SKILLS
+        </H2>
         <img src="images/skills.svg" />
       </section>
     </Container>

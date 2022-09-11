@@ -1,8 +1,8 @@
 import { Box, H2Styles, LargeBar, MediumBar, SmallBar } from './styles';
 
-const H2 = ({ children }) => {
+const H2 = ({ children, style }) => {
   return (
-    <Box>
+    <Box style={style}>
       <SmallBar></SmallBar>
       <MediumBar></MediumBar>
       <LargeBar></LargeBar>
