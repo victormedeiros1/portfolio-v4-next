@@ -11,7 +11,7 @@ export const Right = styled('div', {
   paddingLeft: '$48',
 });
 
-export const ContactLink = styled('div', {
+export const ContactLink = styled('a', {
   position: 'relative',
 
   display: 'flex',

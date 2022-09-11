@@ -10,7 +10,7 @@ const Contact = () => {
       <footer>
         <Left>
           <H2>CONTACT</H2>
-          <ContactLink>
+          <ContactLink href="mailto:josevictordev@gmail.com">
             <span>LET'S</span>
             <span>BUILD</span>
             <span>SOMETHING</span>
