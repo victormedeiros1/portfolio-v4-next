@@ -10,19 +10,30 @@ const SocialMedias = () => {
     <SocialMediasStyles>
       <SocialMediaGroup>
         <LinkedIn />
-        <SocialMedia href="#">LinkedIn</SocialMedia>
+        <SocialMedia
+          target="_blank"
+          href="https://www.linkedin.com/in/jos%C3%A9-victor-dev/"
+        >
+          LinkedIn
+        </SocialMedia>
       </SocialMediaGroup>
       <SocialMediaGroup>
         <Github />
-        <SocialMedia href="#">Github</SocialMedia>
+        <SocialMedia target="_blank" href="https://github.com/victormedeiros1">
+          Github
+        </SocialMedia>
       </SocialMediaGroup>
       <SocialMediaGroup>
         <Figma />
-        <SocialMedia href="#">Figma</SocialMedia>
+        <SocialMedia target="_blank" href="https://www.figma.com/@db5a2c1e_5665_4">
+          Figma
+        </SocialMedia>
       </SocialMediaGroup>
       <SocialMediaGroup>
         <Instagram />
-        <SocialMedia href="#">Instagram</SocialMedia>
+        <SocialMedia target="_blank" href="https://www.instagram.com/victor_mdrss/">
+          Instagram
+        </SocialMedia>
       </SocialMediaGroup>
     </SocialMediasStyles>
   );

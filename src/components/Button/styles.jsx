@@ -8,7 +8,7 @@ export const ButtonStyles = styled('a', {
 
   background: 'none',
 
-  border: '1px solid $dark',
+  border: '2px solid $dark',
   borderBottomLeftRadius: '90px',
   padding: '18px 40px 18px 57px',
 
