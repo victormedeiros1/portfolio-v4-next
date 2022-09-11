@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Instagram = () => {
+const Instagram = () => {
   return (
     <svg
       width="32"

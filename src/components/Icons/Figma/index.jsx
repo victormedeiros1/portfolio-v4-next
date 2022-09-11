@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Figma = () => {
+const Figma = () => {
   return (
     <svg
       width="32"
