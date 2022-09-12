@@ -13,7 +13,7 @@ export const Right = styled('div', {});
 
 export const ProfilePicture = styled('img', {
   '@media (max-width: 992px)': {
-    width: '300px',
-    height: '400px',
+    width: '100%',
+    maxWidth: '300px',
   },
 });

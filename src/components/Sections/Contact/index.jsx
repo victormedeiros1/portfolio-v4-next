@@ -2,12 +2,12 @@ import React from 'react';
 import Container from 'src/components/Container';
 import H2 from 'src/components/Headings/H2';
 import SocialMedias from './components/SocialMedias';
-import { ContactLink, Left, Right } from './styles';
+import { ContactLink, Left, Right, Footer } from './styles';
 
 export default function Contact() {
   return (
     <Container>
-      <footer>
+      <Footer>
         <Left>
           <H2>CONTACT</H2>
           <ContactLink href="mailto:josevictordev@gmail.com">
@@ -20,7 +20,7 @@ export default function Contact() {
         <Right>
           <SocialMedias />
         </Right>
-      </footer>
+      </Footer>
     </Container>
   );
 }

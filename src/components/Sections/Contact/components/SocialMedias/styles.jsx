@@ -4,7 +4,6 @@ export const SocialMediasStyles = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
-  height: '400px',
 });
 
 export const SocialMediaGroup = styled('a', {
@@ -21,7 +20,13 @@ export const SocialMediaGroup = styled('a', {
 });
 
 export const SocialMedia = styled('span', {
+  color: '$dark',
   fontSize: '$40',
   lineHeight: '$64',
   fontWeight: '700',
+
+  '@media(max-width: 576px)': {
+    fontSize: '$24',
+    lineHeight: '$36',
+  },
 });

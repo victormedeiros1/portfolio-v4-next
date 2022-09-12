@@ -7,8 +7,18 @@ export const Left = styled('div', {
 
 export const Right = styled('div', {
   borderLeft: '1px solid $gray500',
+  height: '50%',
+  display: 'flex',
 
   paddingLeft: '$48',
+
+  '@media(max-width: 576px)': {
+    paddingLeft: '$24',
+  },
+  '@media(max-width: 468px)': {
+    border: 0,
+    paddingLeft: '0',
+  },
 });
 
 export const ContactLink = styled('a', {
@@ -31,6 +41,11 @@ export const ContactLink = styled('a', {
 
     textDecoration: 'underline',
     textDecorationColor: '$dark',
+
+    '@media(max-width: 576px)': {
+      textDecoration: 'none',
+      opacity: '1 !important',
+    },
   },
   'span:nth-child(2)': {
     top: '1.8rem',
@@ -59,5 +74,14 @@ export const ContactLink = styled('a', {
   '&:hover > span:nth-child(4)': {
     opacity: 1,
     top: '7.2rem',
+  },
+});
+
+export const Footer = styled('footer', {
+  '@media(max-width: 468px)': {
+    flexDirection: 'column !important',
+  },
+  '@media(max-width: 992px)': {
+    flexDirection: 'initial',
   },
 });
