@@ -109,7 +109,6 @@ const Works = () => {
     <Container>
       <section style={{ flexDirection: 'column', alignItems: 'start' }}>
         <H2>WORKS</H2>
-
         <Projects>
           <Banners>
             {projects.map(({ id, banner, alt }) => (
@@ -122,7 +121,6 @@ const Works = () => {
               />
             ))}
           </Banners>
-
           <Cards>
             <Card
               key={projects[currentCard].id}
