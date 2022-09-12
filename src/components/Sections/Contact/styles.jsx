@@ -27,9 +27,6 @@ export const ContactLink = styled('a', {
     top: 0,
     color: '$dark',
     userSelect: 'none',
-    transition: 0.1,
-
-    position: 'absolute',
     transition: '0.3s',
 
     textDecoration: 'underline',
