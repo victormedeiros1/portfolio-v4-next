@@ -1,6 +1,6 @@
 import { LogoStyles } from './styles';
 
-const Logo = () => {
+export default function Logo() {
   return (
     <LogoStyles
       width="400"
@@ -26,6 +26,4 @@ const Logo = () => {
       </defs>
     </LogoStyles>
   );
-};
-
-export default Logo;
+}

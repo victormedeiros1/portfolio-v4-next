@@ -5,7 +5,7 @@ import Banner from 'src/components/Projects/Banner';
 import H2 from 'src/components/Headings/H2';
 import { Projects, Banners, Cards } from './styles';
 
-const Works = () => {
+export default function Works() {
   const [currentCard, setCurrentCard] = useState(0);
   const projects = [
     {
@@ -134,6 +134,4 @@ const Works = () => {
       </section>
     </Container>
   );
-};
-
-export default Works;
+}

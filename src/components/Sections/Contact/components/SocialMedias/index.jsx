@@ -5,7 +5,7 @@ import Instagram from 'src/components/Icons/Instagram';
 import LinkedIn from 'src/components/Icons/LinkedIn';
 import { SocialMediasStyles, SocialMedia, SocialMediaGroup } from './styles';
 
-const SocialMedias = () => {
+export default function SocialMedias() {
   return (
     <SocialMediasStyles>
       <SocialMediaGroup>
@@ -37,6 +37,4 @@ const SocialMedias = () => {
       </SocialMediaGroup>
     </SocialMediasStyles>
   );
-};
-
-export default SocialMedias;
+}

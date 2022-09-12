@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Figma = () => {
+export default function Figma() {
   return (
     <svg
       width="32"
@@ -31,6 +31,4 @@ const Figma = () => {
       />
     </svg>
   );
-};
-
-export default Figma;
+}

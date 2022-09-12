@@ -4,7 +4,7 @@ import React from 'react';
 import Button from 'src/components/Button';
 import { H1, H2, Left, Right } from './styles';
 
-const Main = () => {
+export default function Main() {
   return (
     <Container>
       <main>
@@ -19,6 +19,4 @@ const Main = () => {
       </main>
     </Container>
   );
-};
-
-export default Main;
+}

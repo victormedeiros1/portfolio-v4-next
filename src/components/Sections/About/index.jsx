@@ -5,7 +5,7 @@ import H2 from 'src/components/Headings/H2';
 import H3 from 'src/components/Headings/H3';
 import { Left, Right, ProfilePicture } from './styles';
 
-const About = () => {
+export default function About() {
   return (
     <Container>
       <section>
@@ -39,6 +39,4 @@ const About = () => {
       </section>
     </Container>
   );
-};
-
-export default About;
+}

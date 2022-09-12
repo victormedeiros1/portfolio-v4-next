@@ -5,12 +5,11 @@ import {
   CardStyles,
   CardBorderTop,
   CardBorderBottom,
-  CardTitle,
   CardFooter,
   Company,
 } from './styles';
 
-const Card = ({ title, paragraphs, company, link }) => {
+export default function Card({ title, paragraphs, company, link }) {
   return (
     <CardStyles>
       <CardBorderTop />
@@ -27,6 +26,4 @@ const Card = ({ title, paragraphs, company, link }) => {
       <CardBorderBottom />
     </CardStyles>
   );
-};
-
-export default Card;
+}

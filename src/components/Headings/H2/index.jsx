@@ -1,6 +1,6 @@
 import { Box, H2Styles, LargeBar, MediumBar, SmallBar } from './styles';
 
-const H2 = ({ children, style }) => {
+export default function H2({ children, style }) {
   return (
     <Box style={style}>
       <SmallBar></SmallBar>
@@ -12,6 +12,4 @@ const H2 = ({ children, style }) => {
       <SmallBar></SmallBar>
     </Box>
   );
-};
-
-export default H2;
+}

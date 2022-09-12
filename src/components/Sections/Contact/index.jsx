@@ -4,7 +4,7 @@ import H2 from 'src/components/Headings/H2';
 import SocialMedias from './components/SocialMedias';
 import { ContactLink, Left, Right } from './styles';
 
-const Contact = () => {
+export default function Contact() {
   return (
     <Container>
       <footer>
@@ -23,6 +23,4 @@ const Contact = () => {
       </footer>
     </Container>
   );
-};
-
-export default Contact;
+}

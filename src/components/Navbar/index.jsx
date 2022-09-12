@@ -1,6 +1,6 @@
 import { Nav } from './styles';
 
-const Navbar = () => {
+export default function Navbar() {
   return (
     <Nav>
       <ul>
@@ -12,6 +12,4 @@ const Navbar = () => {
       </ul>
     </Nav>
   );
-};
-
-export default Navbar;
+}

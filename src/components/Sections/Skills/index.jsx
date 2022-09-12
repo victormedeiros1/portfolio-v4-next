@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'src/components/Container';
 import H2 from 'src/components/Headings/H2';
 
-const Skills = () => {
+export default function Skills() {
   return (
     <Container>
       <section style={{ display: 'flex', alignItems: 'center' }}>
@@ -13,6 +13,4 @@ const Skills = () => {
       </section>
     </Container>
   );
-};
-
-export default Skills;
+}

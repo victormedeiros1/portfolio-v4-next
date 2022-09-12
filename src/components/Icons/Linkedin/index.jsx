@@ -1,6 +1,5 @@
 import React from 'react';
-
-const LinkedIn = () => {
+export default function LinkedIn() {
   return (
     <svg
       width="32"
@@ -22,6 +21,4 @@ const LinkedIn = () => {
       </defs>
     </svg>
   );
-};
-
-export default LinkedIn;
+}

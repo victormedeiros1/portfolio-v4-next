@@ -6,7 +6,7 @@ import Works from 'src/components/Sections/Works';
 import Skills from 'src/components/Sections/Skills';
 import Contact from 'src/components/Sections/Contact';
 
-const Home = () => {
+export default function Home() {
   return (
     <div>
       <Head>
@@ -21,6 +21,4 @@ const Home = () => {
       <Contact />
     </div>
   );
-};
-
-export default Home;
+}

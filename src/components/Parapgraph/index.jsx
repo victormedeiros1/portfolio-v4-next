@@ -1,7 +1,5 @@
 import { ParagraphStyles } from './styles';
 
-const Paragraph = ({ children }) => {
+export default function Paragraph({ children }) {
   return <ParagraphStyles>{children}</ParagraphStyles>;
-};
-
-export default Paragraph;
+}
