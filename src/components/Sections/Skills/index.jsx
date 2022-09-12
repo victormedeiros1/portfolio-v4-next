@@ -11,8 +11,9 @@ export default function Skills() {
           SKILLS
         </H2>
         <Image
-          width="100%"
-          src="images/skills.svg"
+          width={723}
+          height={732}
+          src="/images/skills.svg"
           alt="all my skills
         "
         />
