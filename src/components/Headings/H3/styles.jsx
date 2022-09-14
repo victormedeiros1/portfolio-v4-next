@@ -9,7 +9,7 @@ export const H3Styles = styled('h3', {
 
   '@media(max-width: 992px)': {
     fontSize: '$24',
-    lineHeight: '$36',
+    lineHeight: '$24',
     marginBottom: '$8',
   },
 

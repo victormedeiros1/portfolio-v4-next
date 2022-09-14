@@ -4,6 +4,10 @@ export const SocialMediasStyles = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
+
+  '@media(max-width: 922px)': {
+    justifyContent: 'initial',
+  },
 });
 
 export const SocialMediaGroup = styled('a', {

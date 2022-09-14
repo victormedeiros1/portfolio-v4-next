@@ -11,4 +11,9 @@ export const ContainerStyles = styled('div', {
   margin: '0 auto',
 
   padding: '$64 $20',
+
+  '@media (max-width: 922px)': {
+    minHeight: 'initial',
+    padding: '$32 $20',
+  },
 });

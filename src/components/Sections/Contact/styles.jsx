@@ -48,7 +48,7 @@ export const ContactLink = styled('a', {
     },
   },
   'span:nth-child(2)': {
-    top: '1.8rem',
+    top: '1.9rem',
     opacity: 0,
     transitionDelay: '0.1s',
   },
@@ -82,6 +82,8 @@ export const Footer = styled('footer', {
     flexDirection: 'column !important',
   },
   '@media(max-width: 992px)': {
+    width: '100%',
+    alignItems: 'start',
     flexDirection: 'initial',
   },
 });

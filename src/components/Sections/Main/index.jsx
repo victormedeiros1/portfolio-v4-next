@@ -2,12 +2,12 @@ import Container from 'src/components/Container';
 import Logo from 'src/components/Logo';
 import React from 'react';
 import Button from 'src/components/Button';
-import { H1, H2, Left, Right } from './styles';
+import { H1, H2, Left, Right, MainStyles } from './styles';
 
 export default function Main() {
   return (
     <Container>
-      <main>
+      <MainStyles>
         <Left>
           <H1>JOSÉ VICTOR</H1>
           <H2>FRONT-END DEVELOPER</H2>
@@ -16,7 +16,7 @@ export default function Main() {
         <Right>
           <Logo />
         </Right>
-      </main>
+      </MainStyles>
     </Container>
   );
 }

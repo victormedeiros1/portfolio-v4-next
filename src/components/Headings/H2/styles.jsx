@@ -5,6 +5,10 @@ export const Box = styled('div', {
   flexDirection: 'column',
   gap: '10px',
   marginBottom: '$48',
+
+  '@media (max-width: 992px)': {
+    marginBottom: '$24',
+  },
 });
 
 export const H2Styles = styled('h2', {

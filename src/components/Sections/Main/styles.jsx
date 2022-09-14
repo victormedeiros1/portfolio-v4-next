@@ -1,5 +1,9 @@
 import { styled } from '@stitches/react';
 
+export const MainStyles = styled('main', {
+  minHeight: 'calc(100vh - 100px)',
+});
+
 export const H1 = styled('h1', {
   maxWidth: 400,
   color: '$dark',
@@ -11,6 +15,7 @@ export const H1 = styled('h1', {
     maxWidth: '300px',
     fontSize: '$64',
     lineHeight: '$64',
+    marginBottom: '$10',
   },
 });
 
@@ -23,6 +28,7 @@ export const H2 = styled('h2', {
   '@media (max-width: 992px)': {
     fontSize: '$32',
     lineHeight: '$32',
+    marginBottom: '$48',
   },
 });
 
