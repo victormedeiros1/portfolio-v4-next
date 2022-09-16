@@ -19,7 +19,7 @@ export const H2Styles = styled('h2', {
 
   '@media (max-width: 992px)': {
     fontSize: '$48',
-    lineHeight: '$36',
+    lineHeight: '$48',
   },
 });
 

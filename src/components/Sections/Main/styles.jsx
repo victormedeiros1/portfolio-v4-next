@@ -1,6 +1,7 @@
 import { styled } from '@stitches/react';
 
 export const MainStyles = styled('main', {
+  justifyContent: 'center',
   minHeight: 'calc(100vh - 100px)',
 });
 
@@ -15,7 +16,7 @@ export const H1 = styled('h1', {
     maxWidth: '300px',
     fontSize: '$64',
     lineHeight: '$64',
-    marginBottom: '$10',
+    marginBottom: '$12',
   },
 });
 
