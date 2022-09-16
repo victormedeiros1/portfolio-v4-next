@@ -13,20 +13,22 @@ export const H1 = styled('h1', {
   marginBottom: '$20',
 
   '@media (max-width: 992px)': {
-    maxWidth: '300px',
     fontSize: '$64',
     lineHeight: '$64',
+    textAlign: 'end',
     marginBottom: '$12',
   },
 });
 
 export const H2 = styled('h2', {
-  maxWidth: '300px',
   color: '$green',
   fontSize: '$32',
-  marginBottom: '$48',
+  textAlign: 'end',
+  margin: '0 auto $48 auto',
 
   '@media (max-width: 992px)': {
+    textAlign: 'center',
+    maxWidth: '300px',
     fontSize: '$32',
     lineHeight: '$32',
     marginBottom: '$48',
