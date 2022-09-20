@@ -15,7 +15,7 @@ export const H1 = styled('h1', {
   '@media (max-width: 992px)': {
     fontSize: '$64',
     lineHeight: '$64',
-    textAlign: 'end',
+    textAlign: 'center',
     marginBottom: '$12',
   },
 });
