@@ -11,7 +11,7 @@ export default function Main() {
         <Left>
           <H1>JOSÉ VICTOR</H1>
           <H2>FRONT-END DEVELOPER</H2>
-          <Button>DISCOVER</Button>
+          <Button to="#about">DISCOVER</Button>
         </Left>
         <Right>
           <Logo />
