@@ -13,8 +13,8 @@ export const ButtonStyles = styled('a', {
   padding: '16px 40px 16px 57px',
 
   '@media (max-width: 992px)': {
-    fontSize: '$16',
-    lineHeight: '$10',
+    fontSize: '$14',
+    lineHeight: '$8',
     padding: '10px 32px 10px 42px',
   },
   '&:hover': {
