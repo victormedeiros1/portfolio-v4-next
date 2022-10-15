@@ -3,14 +3,17 @@ import Logo from 'src/components/Logo';
 import React from 'react';
 import Button from 'src/components/Button';
 import { H1, H2, Left, Right, MainStyles } from './styles';
+import { useIntl } from 'react-intl';
 
 export default function Main() {
+  const intl = useIntl();
+
   return (
     <Container>
       <MainStyles id="main">
         <Left>
           <H1>JOSÉ VICTOR</H1>
-          <H2>FRONT-END DEVELOPER</H2>
+          <H2>{intl.formatMessage({ id: 'main_h2' })}</H2>
           <Button to="#about">DISCOVER</Button>
         </Left>
         <Right>
