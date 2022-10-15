@@ -17,6 +17,7 @@ export const H1 = styled('h1', {
     lineHeight: '$64',
     textAlign: 'center',
     marginBottom: '$12',
+    maxWidth: 300,
   },
 });
 
