@@ -9,8 +9,11 @@ import {
   CardFooter,
   Company,
 } from './styles';
+import { useIntl } from 'react-intl';
 
 export default function Card({ title, paragraphs, company, link }) {
+  const intl = useIntl();
+
   return (
     <CardStyles>
       <CardBorderTop />
@@ -20,7 +23,7 @@ export default function Card({ title, paragraphs, company, link }) {
       ))}
       <CardFooter>
         <Button to={link} target="_blank">
-          VISITAR
+          {intl.formatMessage({ id: 'works_CTA' })}
         </Button>
         <Company>{company}</Company>
       </CardFooter>
