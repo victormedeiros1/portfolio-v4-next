@@ -7,7 +7,7 @@ import { H1, H2, Left, Right, MainStyles } from './styles';
 export default function Main() {
   return (
     <Container>
-      <MainStyles>
+      <MainStyles id="main">
         <Left>
           <H1>JOSÉ VICTOR</H1>
           <H2>FRONT-END DEVELOPER</H2>

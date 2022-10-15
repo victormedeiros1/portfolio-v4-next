@@ -107,7 +107,7 @@ export default function Works() {
 
   return (
     <Container>
-      <section style={{ flexDirection: 'column', alignItems: 'start' }}>
+      <section id="works" style={{ flexDirection: 'column', alignItems: 'start' }}>
         <H2>WORKS</H2>
         <Projects>
           <Banners>

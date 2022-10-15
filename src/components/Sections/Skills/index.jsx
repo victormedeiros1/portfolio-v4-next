@@ -6,7 +6,7 @@ import H2 from 'src/components/Headings/H2';
 export default function Skills() {
   return (
     <Container>
-      <section style={{ display: 'flex', alignItems: 'center' }}>
+      <section id="skills" style={{ display: 'flex', alignItems: 'center' }}>
         <H2 style={{ position: 'absolute', visibility: 'hidden', zIndex: '$-1' }}>
           SKILLS
         </H2>

@@ -6,6 +6,7 @@ import Works from 'src/components/Sections/Works';
 import Skills from 'src/components/Sections/Skills';
 import Contact from 'src/components/Sections/Contact';
 import React from 'react';
+import Navbar from 'src/components/Navbar';
 
 export default function Home() {
   return (
@@ -44,6 +45,7 @@ export default function Home() {
 
         <title>José Victor - Front-end Developer</title>
       </Head>
+      <Navbar />
       <Main />
       <About />
       <Works />

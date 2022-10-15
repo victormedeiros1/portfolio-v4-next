@@ -8,7 +8,7 @@ import { Left, Right, ProfilePicture } from './styles';
 export default function About() {
   return (
     <Container>
-      <section>
+      <section id="about">
         <Left>
           <H2>ABOUT ME</H2>
           <H3 size="small">NICE TO MEET YOU!</H3>

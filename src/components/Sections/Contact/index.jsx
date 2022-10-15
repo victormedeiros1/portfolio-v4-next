@@ -7,7 +7,7 @@ import { ContactLink, Left, Right, Footer } from './styles';
 export default function Contact() {
   return (
     <Container>
-      <Footer>
+      <Footer id="contact">
         <Left>
           <H2>CONTACT</H2>
           <ContactLink href="mailto:josevictordev@gmail.com">
