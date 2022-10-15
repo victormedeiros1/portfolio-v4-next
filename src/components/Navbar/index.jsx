@@ -8,7 +8,10 @@ import {
   NavItem,
 } from './styles';
 
+import { useIntl } from 'react-intl';
+
 const Navbar = () => {
+  const intl = useIntl();
   return (
     <NavbarStyles>
       <NavLinks>
@@ -16,19 +19,21 @@ const Navbar = () => {
         <MediumBar />
         <LargeBar />
         <NavItem>
-          <NavLink href="#about">ABOUT ME</NavLink>
+          <NavLink href="#about">{intl.formatMessage({ id: 'navbar_about_me' })}</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#works">WORKS</NavLink>
+          <NavLink href="#works">{intl.formatMessage({ id: 'navbar_works' })}</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#">THEME</NavLink>
+          <NavLink href="#">{intl.formatMessage({ id: 'navbar_theme' })}</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#skills">SKILLS</NavLink>
+          <NavLink href="#skills">{intl.formatMessage({ id: 'navbar_skills' })}</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#contact">CONTACT</NavLink>
+          <NavLink href="#contact">
+            {intl.formatMessage({ id: 'navbar_contact' })}
+          </NavLink>
         </NavItem>
         <LargeBar />
         <MediumBar />
