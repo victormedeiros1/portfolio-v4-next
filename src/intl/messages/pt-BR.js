@@ -1,4 +1,4 @@
-export default {
+const ptBR = {
   navbar_about_me: 'SOBRE MIM',
   navbar_works: 'TRABALHOS',
   navbar_theme: 'TEMA',
@@ -70,3 +70,4 @@ export default {
   contact_span3: 'ALGUMA COISA',
   contact_span4: 'JUNTOS?',
 };
+export default ptBR;

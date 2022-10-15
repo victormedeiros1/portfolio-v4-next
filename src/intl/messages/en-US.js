@@ -1,4 +1,4 @@
-export default {
+const enUS = {
   navbar_about_me: 'ABOUT ME',
   navbar_works: 'WORKS',
   navbar_theme: 'THEME',
@@ -70,3 +70,5 @@ export default {
   contact_span3: 'SOMETHING',
   contact_span4: 'TOGETHER',
 };
+
+export default enUS;
