@@ -4,30 +4,19 @@ import Paragraph from 'src/components/Paragraph';
 import H2 from 'src/components/Headings/H2';
 import H3 from 'src/components/Headings/H3';
 import { Left, Right, ProfilePicture } from './styles';
+import { useIntl } from 'react-intl';
 
 export default function About() {
+  const intl = useIntl();
   return (
     <Container>
       <section id="about">
         <Left>
-          <H2>ABOUT ME</H2>
-          <H3 size="small">NICE TO MEET YOU!</H3>
-          <Paragraph>
-            I started programming in 2017 and graduated as a Computer Technician at the
-            IFRN. I liked to program, it was an interesting challenge, but I took a real
-            rush when I got to the web development part.
-          </Paragraph>
-          <Paragraph>
-            When I got to know the front-end and saw the infinite sea of possibilities, I
-            fell in love, I always liked the visual and creative side of things, so I
-            started to interact with the community, working as a team, meeting and
-            exchanging knowledge with new people. essential.
-          </Paragraph>
-          <Paragraph>
-            Today, I'm studying Information Systems at UFRN. I want to be a great
-            developer and I am every day studying and striving more and more to become
-            one.
-          </Paragraph>
+          <H2>{intl.formatMessage({ id: 'about_me_title' })}</H2>
+          <H3 size="small">{intl.formatMessage({ id: 'about_me_subtitle' })}</H3>
+          <Paragraph>{intl.formatMessage({ id: 'about_me_paragraph1' })}</Paragraph>
+          <Paragraph>{intl.formatMessage({ id: 'about_me_paragraph2' })}</Paragraph>
+          <Paragraph>{intl.formatMessage({ id: 'about_me_paragraph3' })}</Paragraph>
         </Left>
         <Right>
           <ProfilePicture
