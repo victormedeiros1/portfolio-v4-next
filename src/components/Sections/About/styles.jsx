@@ -14,6 +14,6 @@ export const Right = styled('div', {});
 export const ProfilePicture = styled('img', {
   '@media (max-width: 992px)': {
     width: '100%',
-    maxWidth: '300px',
+    maxWidth: 300,
   },
 });

@@ -1,12 +1,12 @@
 import { styled } from '@stitches/react';
 
 export const LogoStyles = styled('div', {
-  width: '400px',
-  height: '400px',
+  width: 400,
+  height: 400,
 
   '@media (max-width: 992px)': {
-    width: '200px',
-    height: '200px',
+    width: 200,
+    height: 200,
   },
 
   /***************************************************

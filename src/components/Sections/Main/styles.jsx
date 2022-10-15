@@ -29,7 +29,7 @@ export const H2 = styled('h2', {
 
   '@media (max-width: 992px)': {
     textAlign: 'center',
-    maxWidth: '300px',
+    maxWidth: 300,
     fontSize: '$32',
     lineHeight: '$32',
     marginBottom: '$48',

@@ -6,7 +6,7 @@ export const Projects = styled('div', {
 
 export const Banners = styled('div', {
   width: '30%',
-  maxWidth: '500px',
+  maxWidth: 500,
   overflow: 'hidden',
   marginRight: '$48',
   padding: '10% 0',

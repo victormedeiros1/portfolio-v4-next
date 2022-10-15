@@ -25,22 +25,22 @@ export const NavLink = styled('a', {
 });
 
 export const LargeBar = styled('div', {
-  width: '30px',
-  height: '1px',
+  width: 30,
+  height: 1,
   background: '$dark',
   marginBottom: '$4',
 });
 
 export const MediumBar = styled('div', {
-  width: '20px',
-  height: '1px',
+  width: 20,
+  height: 1,
   background: '$dark',
   marginBottom: '$4',
 });
 
 export const SmallBar = styled('div', {
-  width: '10px',
-  height: '1px',
+  width: 10,
+  height: 1,
   background: '$dark',
   marginBottom: '$4',
 });

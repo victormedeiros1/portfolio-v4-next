@@ -2,7 +2,7 @@ import { styled } from '@stitches/react';
 
 export const Left = styled('div', {
   paddingRight: '$48',
-  marginBottom: '156px',
+  marginBottom: 156,
 });
 
 export const Right = styled('div', {

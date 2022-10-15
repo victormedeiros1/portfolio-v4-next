@@ -29,7 +29,7 @@ export const CardBorderBottom = styled('div', {
 
 export const CardStyles = styled('div', {
   width: '100%',
-  maxWidth: '652px',
+  maxWidth: 652,
   position: 'relative',
   padding: '$32',
   marginTop: '22%',

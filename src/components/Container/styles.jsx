@@ -6,7 +6,7 @@ export const ContainerStyles = styled('div', {
   flexDirection: 'row',
 
   width: '100%',
-  maxWidth: '1200px',
+  maxWidth: 1200,
   minHeight: '100vh',
   margin: '0 auto',
 
