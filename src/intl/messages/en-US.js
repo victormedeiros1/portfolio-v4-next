@@ -50,6 +50,9 @@ const enUS = {
     'The idea of this application was a “fullpage” style website, there is no scrolling, only a menu where you can navigate between the sections of the page and view the information. It was my first time doing a site in this style, but I did well and I really liked it.    ',
   works_omega_paragraph3:
     "The second stage was more interesting and challenging, I had never worked with email marketing and it seemed to me to be something very simple, until I discovered the limitations at the code level, for example, the structure of the email had to be made only with tables, the css all inline , some css attributes and html tags didn't work, the images would have to be placed in the cloud for display and several other limitations that I discovered over time.",
+
+  works_CTA: 'VISIT',
+
   //   works_spotify_title: 'NETFLIX TUDUM',
   // works_spotify_paragraph1:
   //   "",

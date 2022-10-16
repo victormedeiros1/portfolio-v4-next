@@ -18,7 +18,7 @@ const ptBR = {
   about_me_paragraph3:
     'Hoje, estou fazendo faculdade de Sistemas de Informação na UFRN. Quero ser um grande desenvolvedor e estou todo dia estudando mais e mais para me tornar um.    ',
 
-  works_title: 'TRABRALHOS',
+  works_title: 'TRABALHOS',
   works_netflix_title: 'NETFLIX TUDUM',
   works_netflix_paragraph1:
     'O Tudum é um evento internacional que anuncia diversas novidades sobre os projetos da Netflix. Em 2021 ocorreu a 3ª edição para comemorar os 10 anos da Netflix no Brasil. O Almanaque Tudum foi lançado junto ao evento, ele é um livro com material exclusivo sobre as produções da empresa.    ',
@@ -50,6 +50,8 @@ const ptBR = {
     'A ideia dessa aplicação era um site estilo “fullpage”, não há rolagem, somente um menu onde você consegue navegar entre as seções da página e visualizar as informações. Foi minha primeira vez fazendo um site nesse estilo, mas até que me dei bem e gostei bastante.    ',
   works_omega_paragraph3:
     'Como era um projeto relativamente simples, todo o desenvolvimento ficou por minha conta, era uma grande responsabilidade, cometi alguns erros e travei em alguns momentos, mas sempre que precisava de ajuda, haviam desenvolvedores mais experientes disponíveis.    ',
+
+  works_CTA: 'VISITAR',
   //   works_spotify_title: 'NETFLIX TUDUM',
   // works_spotify_paragraph1:
   //   "",
