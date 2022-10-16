@@ -7,7 +7,7 @@ export const NavLanguages = styled('ul', {
   gap: '$16',
   position: 'fixed',
   top: '$16',
-  left: '$24',
+  left: '$16',
   listStyle: 'none',
 });
 export const NavLanguage = styled('li', {
@@ -28,8 +28,8 @@ export const NavLinks = styled('ul', {
   textAlign: 'end',
   alignItems: 'end',
   position: 'fixed',
-  top: '$64',
-  right: '$24',
+  top: '$16',
+  right: '$16',
   listStyle: 'none',
 });
 
