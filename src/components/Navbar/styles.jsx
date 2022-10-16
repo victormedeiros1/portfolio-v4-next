@@ -33,7 +33,13 @@ export const NavLinks = styled('ul', {
   listStyle: 'none',
 });
 
-export const NavItem = styled('li', {});
+export const NavItem = styled('li', {
+  transitionDuration: '0.2s',
+
+  '&:hover': {
+    transform: 'translateX(-3px)',
+  },
+});
 
 export const NavLink = styled('a', {
   fontSize: '$12',
