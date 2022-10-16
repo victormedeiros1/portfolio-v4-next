@@ -6,14 +6,33 @@ import {
   NavLink,
   NavLinks,
   NavItem,
+  NavLanguages,
+  NavLanguage,
 } from './styles';
+
+import { useLanguage } from '../../context/Language';
 
 import { useIntl } from 'react-intl';
 
 const Navbar = () => {
+  const { language, setLanguage } = useLanguage();
   const intl = useIntl();
+
   return (
     <NavbarStyles>
+      <NavLanguages>
+        <NavLanguage>
+          <button onClick={() => setLanguage('pt-BR')}>
+            <img src="/images/languages/br.svg" alt="Brazil flag" />
+          </button>
+        </NavLanguage>
+
+        <NavLanguage>
+          <button onClick={() => setLanguage('en-US')}>
+            <img src="/images/languages/usa.svg" alt="United States flag" />
+          </button>
+        </NavLanguage>
+      </NavLanguages>
       <NavLinks>
         <SmallBar />
         <MediumBar />

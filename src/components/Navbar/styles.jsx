@@ -2,6 +2,26 @@ import { styled } from '@stitches/react';
 
 export const NavbarStyles = styled('nav', {});
 
+export const NavLanguages = styled('ul', {
+  display: 'flex',
+  gap: '$16',
+  position: 'fixed',
+  top: '$16',
+  left: '$24',
+  listStyle: 'none',
+});
+export const NavLanguage = styled('li', {
+  button: {
+    background: 'none',
+    border: 'none',
+    transitionDuration: '0.1s',
+
+    '&:hover': {
+      transform: 'scale(1.1)',
+    },
+  },
+});
+
 export const NavLinks = styled('ul', {
   display: 'flex',
   flexDirection: 'column',

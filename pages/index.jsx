@@ -7,10 +7,16 @@ import Skills from 'src/components/Sections/Skills';
 import Contact from 'src/components/Sections/Contact';
 import React from 'react';
 import Navbar from 'src/components/Navbar';
+import { IntlProvider } from 'react-intl';
+import intlLanguages from 'src/intl';
+import { useLanguage } from 'src/context/Language';
 
 export default function Home() {
+  const { language } = useLanguage();
+  const messages = intlLanguages[language];
+
   return (
-    <div>
+    <IntlProvider locale={language} messages={messages} defaultLocale="en-US">
       <Head>
         <link rel="apple-touch-icon" href="images/favicon.ico" />
         <link rel="icon" href="images/favicon.ico" />
@@ -51,6 +57,6 @@ export default function Home() {
       <Works />
       <Skills />
       <Contact />
-    </div>
+    </IntlProvider>
   );
 }
