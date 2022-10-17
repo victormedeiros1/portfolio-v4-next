@@ -1,16 +1,13 @@
 import React from 'react';
-import { Box, H2Styles, LargeBar, MediumBar, SmallBar } from './styles';
+import Bars from 'src/components/Bars';
+import { Box, H2Styles } from './styles';
 
-export default function H2({ children, style }) {
+export default function H2({ children, style, reverseBar }) {
   return (
     <Box style={style}>
-      <SmallBar />
-      <MediumBar />
-      <LargeBar />
+      <Bars size="large" color="green" />
       <H2Styles>{children}</H2Styles>
-      <LargeBar />
-      <MediumBar />
-      <SmallBar />
+      <Bars size="large" color="green" direction={reverseBar} />
     </Box>
   );
 }

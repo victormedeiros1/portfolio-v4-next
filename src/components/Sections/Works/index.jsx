@@ -97,7 +97,7 @@ export default function Works() {
   return (
     <Container>
       <section id="works" style={{ flexDirection: 'column', alignItems: 'start' }}>
-        <H2>{intl.formatMessage({ id: 'works_title' })}</H2>
+        <H2 reverseBar="reverse">{intl.formatMessage({ id: 'works_title' })}</H2>
         <Projects>
           <Banners>
             {projects.map(({ id, banner, alt }) => (

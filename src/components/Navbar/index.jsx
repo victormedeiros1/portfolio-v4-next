@@ -1,7 +1,4 @@
 import {
-  LargeBar,
-  MediumBar,
-  SmallBar,
   NavbarStyles,
   NavLink,
   NavLinks,
@@ -13,9 +10,11 @@ import {
 import { useLanguage } from '../../context/Language';
 
 import { useIntl } from 'react-intl';
+import Image from 'next/image';
+import Bars from '../Bars';
 
 const Navbar = () => {
-  const { language, setLanguage } = useLanguage();
+  const { setLanguage } = useLanguage();
   const intl = useIntl();
 
   return (
@@ -23,20 +22,28 @@ const Navbar = () => {
       <NavLanguages>
         <NavLanguage>
           <button onClick={() => setLanguage('pt-BR')}>
-            <img src="/images/languages/br.svg" alt="Brazil flag" />
+            <Image
+              width="30"
+              height="20"
+              src="/images/languages/br.svg"
+              alt="Brazil flag"
+            />
           </button>
         </NavLanguage>
 
         <NavLanguage>
           <button onClick={() => setLanguage('en-US')}>
-            <img src="/images/languages/usa.svg" alt="United States flag" />
+            <Image
+              width="30"
+              height="20"
+              src="/images/languages/usa.svg"
+              alt="United States flag"
+            />
           </button>
         </NavLanguage>
       </NavLanguages>
       <NavLinks>
-        <SmallBar />
-        <MediumBar />
-        <LargeBar />
+        <Bars align="end" />
         <NavItem>
           <NavLink href="#about">{intl.formatMessage({ id: 'navbar_about_me' })}</NavLink>
         </NavItem>
@@ -54,9 +61,7 @@ const Navbar = () => {
             {intl.formatMessage({ id: 'navbar_contact' })}
           </NavLink>
         </NavItem>
-        <LargeBar />
-        <MediumBar />
-        <SmallBar />
+        <Bars direction="reverse" align="end" />
       </NavLinks>
     </NavbarStyles>
   );

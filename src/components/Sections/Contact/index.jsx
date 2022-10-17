@@ -9,7 +9,7 @@ export default function Contact() {
     <Container>
       <Footer id="contact">
         <Left>
-          <H2>CONTACT</H2>
+          <H2 reverseBar="reverse">CONTACT</H2>
           <ContactLink href="mailto:josevictordev@gmail.com">
             <span>LET'S</span>
             <span>BUILD</span>

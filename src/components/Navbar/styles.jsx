@@ -10,6 +10,7 @@ export const NavLanguages = styled('ul', {
   left: '$16',
   listStyle: 'none',
 });
+
 export const NavLanguage = styled('li', {
   button: {
     background: 'none',
@@ -27,6 +28,7 @@ export const NavLinks = styled('ul', {
   flexDirection: 'column',
   textAlign: 'end',
   alignItems: 'end',
+  gap: '$8',
   position: 'fixed',
   top: '$16',
   right: '$16',
@@ -42,12 +44,20 @@ export const NavItem = styled('li', {
 });
 
 export const NavLink = styled('a', {
+  display: 'block',
   fontSize: '$12',
   fontWeight: 500,
 
   '&:hover': {
     color: '$green',
   },
+});
+
+export const Bars = styled('div', {
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'end',
+  gap: '$4',
 });
 
 export const LargeBar = styled('div', {
@@ -61,12 +71,10 @@ export const MediumBar = styled('div', {
   width: 20,
   height: 1,
   background: '$dark',
-  marginBottom: '$4',
 });
 
 export const SmallBar = styled('div', {
   width: 10,
   height: 1,
   background: '$dark',
-  marginBottom: '$4',
 });
