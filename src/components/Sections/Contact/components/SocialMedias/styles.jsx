@@ -8,6 +8,9 @@ export const SocialMediasStyles = styled('div', {
   '@media(max-width: 922px)': {
     justifyContent: 'initial',
   },
+  '@media(max-width: 576px)': {
+    gap: '$8',
+  },
 });
 
 export const SocialMediaGroup = styled('a', {
