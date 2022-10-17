@@ -34,7 +34,7 @@ const globalStyles = globalCss({
     },
   },
   body: {
-    backgroundImage: 'url(/images/backgrounds/light.jpg)',
+    backgroundImage: '$background',
     backgroundSize: 'cover',
     backgroundRepeat: 'none',
     backgroundAttachment: 'fixed',
@@ -79,7 +79,7 @@ const globalStyles = globalCss({
 
 globalStyles();
 
-export const { theme } = createStitches({
+export const { theme, createTheme } = createStitches({
   theme: {
     space: {
       4: '0.25rem',
@@ -137,6 +137,7 @@ export const { theme } = createStitches({
       4: 4,
     },
     colors: {
+      background: 'url(/images/backgrounds/light.jpg)',
       dark: '#2F2F2F',
       light: '#EEECE9',
       green: '#27CA54',
@@ -206,5 +207,24 @@ export const { theme } = createStitches({
     pl: (value) => ({
       paddingLeft: value,
     }),
+  },
+});
+
+export const darkTheme = createTheme({
+  colors: {
+    background: 'url(/images/backgrounds/dark.jpg)',
+    dark: '#EEECE9',
+    light: '#2F2F2F',
+    green: '#27CA54',
+    gray50: '#f9f9f9',
+    gray100: '#ededed',
+    gray200: '#e1e1e1',
+    gray300: '#d3d3d3',
+    gray400: '#c4c4c4',
+    gray500: '#b3b3b3',
+    gray600: '#a0a0a0',
+    gray700: '#898989',
+    gray800: '#6c6c6c',
+    gray900: '#3f3f3f',
   },
 });

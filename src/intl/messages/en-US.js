@@ -1,7 +1,8 @@
 const enUS = {
   navbar_about_me: 'ABOUT ME',
   navbar_works: 'WORKS',
-  navbar_theme: 'THEME',
+  navbar_theme_dark: 'DARK',
+  navbar_theme_light: 'LIGHT',
   navbar_skills: 'SKILLS',
   navbar_contact: 'CONTACT',
 

@@ -12,9 +12,11 @@ import { useLanguage } from '../../context/Language';
 import { useIntl } from 'react-intl';
 import Image from 'next/image';
 import Bars from '../Bars';
+import { useTheme } from 'next-themes';
 
 const Navbar = () => {
   const { setLanguage } = useLanguage();
+  const { theme, setTheme } = useTheme();
   const intl = useIntl();
 
   return (
@@ -51,7 +53,14 @@ const Navbar = () => {
           <NavLink href="#works">{intl.formatMessage({ id: 'navbar_works' })}</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#">{intl.formatMessage({ id: 'navbar_theme' })}</NavLink>
+          <NavLink
+            onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
+            href="#"
+          >
+            {theme === 'light'
+              ? intl.formatMessage({ id: 'navbar_theme_dark' })
+              : intl.formatMessage({ id: 'navbar_theme_light' })}
+          </NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="#skills">{intl.formatMessage({ id: 'navbar_skills' })}</NavLink>

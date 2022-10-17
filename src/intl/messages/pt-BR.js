@@ -1,7 +1,8 @@
 const ptBR = {
   navbar_about_me: 'SOBRE MIM',
   navbar_works: 'TRABALHOS',
-  navbar_theme: 'TEMA',
+  navbar_theme_dark: 'ESCURO',
+  navbar_theme_light: 'CLARO',
   navbar_skills: 'TECNOLOGIAS',
   navbar_contact: 'CONTATO',
 
