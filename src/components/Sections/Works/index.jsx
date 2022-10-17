@@ -6,7 +6,7 @@ import H2 from 'src/components/Headings/H2';
 import { Projects, Banners, Cards } from './styles';
 import { useIntl } from 'react-intl';
 
-export default function Works() {
+const Works = () => {
   const [currentCard, setCurrentCard] = useState(0);
   const intl = useIntl();
   const projects = [
@@ -123,4 +123,5 @@ export default function Works() {
       </section>
     </Container>
   );
-}
+};
+export default Works;

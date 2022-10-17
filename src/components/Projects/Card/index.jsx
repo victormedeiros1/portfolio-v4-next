@@ -11,7 +11,7 @@ import {
 } from './styles';
 import { useIntl } from 'react-intl';
 
-export default function Card({ title, paragraphs, company, link }) {
+const Card = ({ title, paragraphs, company, link }) => {
   const intl = useIntl();
 
   return (
@@ -30,4 +30,6 @@ export default function Card({ title, paragraphs, company, link }) {
       <CardBorderBottom />
     </CardStyles>
   );
-}
+};
+
+export default Card;

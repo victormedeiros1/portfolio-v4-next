@@ -5,7 +5,7 @@ import Button from 'src/components/Button';
 import { H1, H2, Left, Right, MainStyles } from './styles';
 import { useIntl } from 'react-intl';
 
-export default function Main() {
+const Main = () => {
   const intl = useIntl();
 
   return (
@@ -22,4 +22,6 @@ export default function Main() {
       </MainStyles>
     </Container>
   );
-}
+};
+
+export default Main;

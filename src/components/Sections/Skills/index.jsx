@@ -4,7 +4,7 @@ import { useIntl } from 'react-intl';
 import Container from 'src/components/Container';
 import { Title } from './styles';
 
-export default function Skills() {
+const Skills = () => {
   const intl = useIntl();
   return (
     <Container>
@@ -28,4 +28,6 @@ export default function Skills() {
       </section>
     </Container>
   );
-}
+};
+
+export default Skills;

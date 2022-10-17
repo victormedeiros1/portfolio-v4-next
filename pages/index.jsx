@@ -12,7 +12,7 @@ import intlLanguages from 'src/intl';
 import { useLanguage } from 'src/context/Language';
 import LoadingScreen from 'src/components/LoadingScreen';
 
-export default function Home() {
+const Home = () => {
   const { language } = useLanguage();
   const messages = intlLanguages[language];
 
@@ -72,4 +72,6 @@ export default function Home() {
       )}
     </IntlProvider>
   );
-}
+};
+
+export default Home;

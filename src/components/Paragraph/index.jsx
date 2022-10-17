@@ -1,6 +1,5 @@
 import React from 'react';
 import { ParagraphStyles } from './styles';
 
-export default function Paragraph({ children }) {
-  return <ParagraphStyles>{children}</ParagraphStyles>;
-}
+const Paragraph = ({ children }) => <ParagraphStyles>{children}</ParagraphStyles>;
+export default Paragraph;

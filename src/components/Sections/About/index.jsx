@@ -6,7 +6,7 @@ import H3 from 'src/components/Headings/H3';
 import { Left, Right, ProfilePicture } from './styles';
 import { useIntl } from 'react-intl';
 
-export default function About() {
+const About = () => {
   const intl = useIntl();
   return (
     <Container>
@@ -28,4 +28,6 @@ export default function About() {
       </section>
     </Container>
   );
-}
+};
+
+export default About;

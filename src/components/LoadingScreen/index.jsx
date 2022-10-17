@@ -1,11 +1,11 @@
 import { LoadingScreenStyles, Bar, Progress } from './styles';
 
-export default function LoadingScreen() {
-  return (
-    <LoadingScreenStyles>
-      <Bar>
-        <Progress />
-      </Bar>
-    </LoadingScreenStyles>
-  );
-}
+const LoadingScreen = () => (
+  <LoadingScreenStyles>
+    <Bar>
+      <Progress />
+    </Bar>
+  </LoadingScreenStyles>
+);
+
+export default LoadingScreen;
