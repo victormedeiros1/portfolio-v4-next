@@ -61,9 +61,10 @@ const animateSvgFill2 = keyframes({
 
  **************************************************/
 export const LogoStyles = styled('div', {
+  margin: '0 auto',
   animation: `${floating} 1s infinite alternate`,
-  width: 400,
-  height: 400,
+  width: '100%',
+  maxWidth: 400,
   filter: 'drop-shadow(0 0 10px rgba(0, 0, 0,0.4))',
 
   'path:nth-child(1)': {
@@ -75,8 +76,8 @@ export const LogoStyles = styled('div', {
   },
 
   '@media (max-width: 992px)': {
-    width: 200,
-    height: 200,
+    width: '100%',
+    maxWidth: 200,
   },
   '.logo-animation-1': {
     opacity: 0.8,

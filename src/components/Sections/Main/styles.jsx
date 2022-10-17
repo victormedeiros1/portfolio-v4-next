@@ -6,7 +6,6 @@ export const MainStyles = styled('main', {
 });
 
 export const H1 = styled('h1', {
-  maxWidth: 400,
   color: '$dark',
   fontSize: '$100',
   lineHeight: '$100',
@@ -37,6 +36,7 @@ export const H2 = styled('h2', {
 });
 
 export const Left = styled('div', {
+  width: '100%',
   textAlign: 'end',
   paddingRight: '$48',
 
@@ -48,8 +48,8 @@ export const Left = styled('div', {
 });
 
 export const Right = styled('div', {
+  width: '100%',
   borderLeft: '1px solid $gray500',
-
   paddingLeft: '$48',
 
   '@media (max-width: 992px)': {
