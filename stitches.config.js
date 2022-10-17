@@ -151,6 +151,8 @@ export const { theme, createTheme } = createStitches({
       gray700: '#898989',
       gray800: '#6c6c6c',
       gray900: '#3f3f3f',
+      logoLeft: '#4A4A4A',
+      logoRight: '#2F2F2F',
     },
   },
   // DON'T WORKING
@@ -226,5 +228,7 @@ export const darkTheme = createTheme({
     gray700: '#898989',
     gray800: '#6c6c6c',
     gray900: '#3f3f3f',
+    logoLeft: '#202020',
+    logoRight: '#181818',
   },
 });
