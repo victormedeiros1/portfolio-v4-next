@@ -1,17 +1,25 @@
 import Image from 'next/image';
 import React from 'react';
+import { useIntl } from 'react-intl';
 import Container from 'src/components/Container';
-import H2 from 'src/components/Headings/H2';
+import { Title } from './styles';
 
 export default function Skills() {
+  const intl = useIntl();
   return (
     <Container>
-      <section id="skills" style={{ display: 'flex', alignItems: 'center' }}>
-        <H2 style={{ position: 'absolute', visibility: 'hidden', zIndex: '$-1' }}>
-          SKILLS
-        </H2>
+      <section
+        id="skills"
+        style={{
+          position: 'relative',
+          display: 'flex',
+          justifyContent: 'center',
+          height: 'fit-content',
+        }}
+      >
+        <Title>{intl.formatMessage({ id: 'skills_title' })}</Title>
         <Image
-          width={723}
+          width={732}
           height={732}
           src="/images/skills.svg"
           alt="all my skills

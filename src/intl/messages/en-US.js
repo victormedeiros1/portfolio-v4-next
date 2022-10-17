@@ -65,7 +65,7 @@ const enUS = {
   // works_spotify_paragraph5:
   //   "",
 
-  skills_title: 'SKILLS',
+  skills_title: 'STACK',
 
   contact_title: 'CONTACT',
   contact_span1: "LET'S",

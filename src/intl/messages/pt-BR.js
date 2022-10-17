@@ -64,7 +64,7 @@ const ptBR = {
   // works_spotify_paragraph5:
   //   "",
 
-  skills_title: 'TECNOLOGIAS',
+  skills_title: 'STACK',
 
   contact_title: 'CONTATO',
   contact_span1: 'VAMOS',
