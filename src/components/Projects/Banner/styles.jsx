@@ -1,4 +1,5 @@
 import { styled } from '@stitches/react';
+import Image from 'next/image';
 
 export const BannerStyles = styled('img', {
   width: '180%',
