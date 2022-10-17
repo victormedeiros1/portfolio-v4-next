@@ -36,6 +36,7 @@ export const NavLinks = styled('ul', {
 });
 
 export const NavItem = styled('li', {
+  userSelect: 'none',
   transitionDuration: '0.2s',
 
   '&:hover': {

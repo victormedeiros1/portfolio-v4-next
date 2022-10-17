@@ -53,10 +53,7 @@ const Navbar = () => {
           <NavLink href="#works">{intl.formatMessage({ id: 'navbar_works' })}</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink
-            onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
-            href="#"
-          >
+          <NavLink onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>
             {theme === 'light'
               ? intl.formatMessage({ id: 'navbar_theme_dark' })
               : intl.formatMessage({ id: 'navbar_theme_light' })}
