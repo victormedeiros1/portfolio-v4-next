@@ -1,4 +1,3 @@
-import React from 'react';
 import Bars from 'src/components/Bars';
 import { Box, H2Styles } from './styles';
 

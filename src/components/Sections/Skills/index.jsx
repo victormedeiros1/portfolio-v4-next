@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import React from 'react';
+
 import { useIntl } from 'react-intl';
 import Container from 'src/components/Container';
 import { Title } from './styles';

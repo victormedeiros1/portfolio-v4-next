@@ -1,4 +1,3 @@
-import React from 'react';
 import Figma from 'src/components/Icons/Figma';
 import Github from 'src/components/Icons/Github';
 import Instagram from 'src/components/Icons/Instagram';

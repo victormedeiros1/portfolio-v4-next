@@ -1,6 +1,6 @@
 import Container from 'src/components/Container';
 import Logo from 'src/components/Logo';
-import React from 'react';
+
 import Button from 'src/components/Button';
 import { H1, H2, Left, Right, MainStyles } from './styles';
 import { useIntl } from 'react-intl';

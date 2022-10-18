@@ -1,7 +1,7 @@
 import Button from 'src/components/Button';
 import H3 from 'src/components/Headings/H3';
 import Paragraph from 'src/components/Paragraph';
-import React from 'react';
+
 import {
   CardStyles,
   CardBorderTop,

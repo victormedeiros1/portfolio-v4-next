@@ -1,4 +1,3 @@
-import React from 'react';
 import Container from 'src/components/Container';
 import Paragraph from 'src/components/Paragraph';
 import H2 from 'src/components/Headings/H2';

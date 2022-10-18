@@ -1,4 +1,3 @@
-import React from 'react';
 import Container from 'src/components/Container';
 import H2 from 'src/components/Headings/H2';
 import SocialMedias from './components/SocialMedias';

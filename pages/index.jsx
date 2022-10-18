@@ -5,7 +5,7 @@ import About from 'src/components/Sections/About';
 import Works from 'src/components/Sections/Works';
 import Skills from 'src/components/Sections/Skills';
 import Contact from 'src/components/Sections/Contact';
-import React from 'react';
+
 import Navbar from 'src/components/Navbar';
 import { IntlProvider } from 'react-intl';
 import intlLanguages from 'src/intl';
