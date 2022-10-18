@@ -12,7 +12,7 @@ const Main = () => {
     <Container>
       <MainStyles id="main">
         <Left>
-          <H1>JOSÉ VICTOR</H1>
+          <H1>{intl.formatMessage({ id: 'main_title' })}</H1>
           <H2>{intl.formatMessage({ id: 'main_h2' })}</H2>
           <Button to="#about">{intl.formatMessage({ id: 'main_CTA' })}</Button>
         </Left>
