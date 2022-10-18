@@ -5,22 +5,15 @@ import About from 'src/components/Sections/About';
 import Works from 'src/components/Sections/Works';
 import Skills from 'src/components/Sections/Skills';
 import Contact from 'src/components/Sections/Contact';
-import React, { useState } from 'react';
+import React from 'react';
 import Navbar from 'src/components/Navbar';
 import { IntlProvider } from 'react-intl';
 import intlLanguages from 'src/intl';
 import { useLanguage } from 'src/context/Language';
-import LoadingScreen from 'src/components/LoadingScreen';
 
 const Home = () => {
   const { language } = useLanguage();
   const messages = intlLanguages[language];
-
-  const [loading, setLoading] = useState(true);
-
-  setTimeout(() => {
-    setLoading(false);
-  }, 2000);
 
   return (
     <IntlProvider locale={language} messages={messages} defaultLocale="en-US">
@@ -58,18 +51,12 @@ const Home = () => {
 
         <title>José Victor - Front-end Developer</title>
       </Head>
-      {loading ? (
-        <LoadingScreen />
-      ) : (
-        <>
-          <Navbar />
-          <Main />
-          <About />
-          <Works />
-          <Skills />
-          <Contact />
-        </>
-      )}
+      <Navbar />
+      <Main />
+      <About />
+      <Works />
+      <Skills />
+      <Contact />
     </IntlProvider>
   );
 };
