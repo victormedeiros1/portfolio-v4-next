@@ -65,16 +65,6 @@ const globalStyles = globalCss({
   button: {
     cursor: 'pointer',
   },
-
-  '@media (prefers-color-scheme: light)': {
-    html: {
-      colorScheme: 'dark',
-    },
-    body: {
-      color: 'white',
-      background: 'black',
-    },
-  },
 });
 
 globalStyles();
