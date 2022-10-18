@@ -2,6 +2,7 @@ import { styled } from '@stitches/react';
 
 export const Projects = styled('div', {
   display: 'flex',
+  width: '100%',
 });
 
 export const Banners = styled('div', {
@@ -12,9 +13,8 @@ export const Banners = styled('div', {
   padding: '10% 0',
 
   '@media (max-width: 992px)': {
-    width: '40%',
     marginRight: '$24',
-    padding: '10% 0',
+    padding: '13.5% 0',
   },
 
   '@media (max-width: 576px)': {
@@ -25,8 +25,4 @@ export const Banners = styled('div', {
 export const Cards = styled('div', {
   width: '70%',
   overflow: 'hidden',
-
-  '@media (max-width: 992px)': {
-    width: '60%',
-  },
 });

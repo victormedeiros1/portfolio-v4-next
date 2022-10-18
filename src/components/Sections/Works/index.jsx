@@ -96,7 +96,10 @@ const Works = () => {
 
   return (
     <Container>
-      <section id="works" style={{ flexDirection: 'column', alignItems: 'start' }}>
+      <section
+        id="works"
+        style={{ width: '100%', flexDirection: 'column', alignItems: 'start' }}
+      >
         <H2 reverseBar="reverse">{intl.formatMessage({ id: 'works_title' })}</H2>
         <Projects>
           <Banners>

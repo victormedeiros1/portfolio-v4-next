@@ -1,4 +1,5 @@
 import { styled } from '@stitches/react';
+import Image from 'next/image';
 
 export const Left = styled('div', {
   width: '100%',
@@ -12,6 +13,7 @@ export const Left = styled('div', {
 export const Right = styled('div', {});
 
 export const ProfilePicture = styled('img', {
+  position: 'relative',
   '@media (max-width: 992px)': {
     width: '100%',
     maxWidth: 300,
