@@ -19,9 +19,12 @@ const About = () => {
         </Left>
         <Right>
           <ProfilePicture
+            width={500}
+            height={650}
+            layout="responsive"
             src="/images/profile-picture.png"
-            alt="Profile picture
-          "
+            alt="Profile picture"
+            quality="90"
           />
         </Right>
       </section>
