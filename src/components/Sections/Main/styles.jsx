@@ -1,8 +1,22 @@
-import { styled } from '@stitches/react';
+import { styled, keyframes } from '@stitches/react';
+
+const loading = keyframes({
+  from: {
+    opacity: 0,
+  },
+  '50%': {
+    opacity: 0,
+  },
+  to: {
+    opacity: 1,
+  },
+});
 
 export const MainStyles = styled('main', {
+  opacity: 1,
   justifyContent: 'center',
   minHeight: 'calc(100vh - 100px)',
+  animation: `${loading} 3s linear`,
 });
 
 export const H1 = styled('h1', {

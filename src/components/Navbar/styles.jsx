@@ -1,6 +1,20 @@
-import { styled } from '@stitches/react';
+import { styled, keyframes } from '@stitches/react';
 
-export const NavbarStyles = styled('nav', {});
+const loading = keyframes({
+  from: {
+    opacity: 0,
+  },
+  '50%': {
+    opacity: 0,
+  },
+  to: {
+    opacity: 1,
+  },
+});
+
+export const NavbarStyles = styled('nav', {
+  animation: `${loading} 3s linear`,
+});
 
 export const NavLanguages = styled('ul', {
   display: 'flex',
