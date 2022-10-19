@@ -1,41 +1,10 @@
 import { createStitches, globalCss } from '@stitches/react';
 
 const globalStyles = globalCss({
-  /* ===== Concert One ===== */
-  '@font-face': [
-    {
-      fontFamily: 'Concert One',
-      src: " url('/fonts/ConcertOne-Regular.ttf') format('truetype')",
-      fontWeight: 400,
-    },
-
-    {
-      fontFamily: 'Poppins',
-      src: " url('/fonts/Poppins-Light.ttf') format('truetype')",
-      fontWeight: 300,
-    },
-    {
-      fontFamily: 'Poppins',
-      src: " url('/fonts/Poppins-Regular.ttf') format('truetype')",
-      fontWeight: 400,
-    },
-    {
-      fontFamily: 'Poppins',
-      src: " url('/fonts/Poppins-Medium.ttf') format('truetype')",
-      fontWeight: 500,
-    },
-    {
-      fontFamily: 'Poppins',
-      src: " url('/fonts/Poppins-Bold.ttf') format('truetype')",
-      fontWeight: 700,
-    },
-    {
-      fontFamily: 'Poppins',
-      src: " url('/fonts/Poppins-Black.ttf') format('truetype')",
-      fontWeight: 900,
-    },
+  '@import': [
+    "url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap')",
+    "url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap')",
   ],
-
   '*': {
     fontFamily: 'Poppins, sans-serif',
     boxSizing: 'border-box',
