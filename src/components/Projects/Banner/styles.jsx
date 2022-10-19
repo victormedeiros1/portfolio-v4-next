@@ -4,7 +4,6 @@ import Image from 'next/image';
 export const BannerWrapper = styled('div', {
   position: 'relative',
   width: '180%',
-  height: '7vw',
   transition: '0.3s',
   transform: 'translateX(-22%) translateY(0) rotate(20deg)',
   '&:hover': {
