@@ -2,8 +2,9 @@ import Container from 'src/components/Container';
 import Paragraph from 'src/components/Paragraph';
 import H2 from 'src/components/Headings/H2';
 import H3 from 'src/components/Headings/H3';
-import { Left, Right, ProfilePicture } from './styles';
+import { Left, Right } from './styles';
 import { useIntl } from 'react-intl';
+import Image from 'next/image';
 
 const About = () => {
   const intl = useIntl();
@@ -18,7 +19,7 @@ const About = () => {
           <Paragraph>{intl.formatMessage({ id: 'about_me_paragraph3' })}</Paragraph>
         </Left>
         <Right>
-          <ProfilePicture
+          <Image
             width={500}
             height={650}
             layout="responsive"
