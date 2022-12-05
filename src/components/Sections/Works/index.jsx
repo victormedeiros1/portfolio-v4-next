@@ -12,7 +12,7 @@ const Works = () => {
   const projects = [
     {
       id: 0,
-      title: intl.formatMessage({ id: 'works_title' }),
+      title: intl.formatMessage({ id: 'works_netflix_title' }),
       banner: '/images/banners/netflix.jpg',
       alt: 'Netflix project banner',
       company: 'Hox.rs - 2021',
