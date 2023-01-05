@@ -16,7 +16,7 @@ export const MainStyles = styled('main', {
   opacity: 1,
   justifyContent: 'center',
   minHeight: 'calc(100vh - 100px)',
-  animation: `${loading} 3s linear`,
+  animation: `${loading} 1s linear`,
 });
 
 export const H1 = styled('h1', {

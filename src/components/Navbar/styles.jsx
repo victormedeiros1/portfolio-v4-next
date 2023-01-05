@@ -13,7 +13,7 @@ const loading = keyframes({
 });
 
 export const NavbarStyles = styled('nav', {
-  animation: `${loading} 3s linear`,
+  animation: `${loading} 1s linear`,
 });
 
 export const NavLanguages = styled('ul', {
